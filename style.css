@@ -1,0 +1,225 @@
+.carousel{
+    margin-top: 40px !important;
+    width: 40rem;
+ }
+ .navbar{
+   z-index: 100;
+ }
+ 
+ span{
+     color: rgb(241, 158, 3);
+     font-family: ShowGothicCard;
+ }
+ header{
+     background: rgb(14, 14, 20);
+     position: sticky;
+ }
+ 
+ body{
+     background: rgb(64, 60, 199);
+     width: fit-content;
+     block-size: fit-content;
+     overflow-x: hidden !important;
+
+  
+ }
+
+ .nav-item{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .nav-item{
+   margin: 0 9px;
+ }
+ .nav-item:hover{
+ 
+    background-color: rgb(112, 124, 124);
+ }
+ 
+ .paragraph{
+     margin-bottom: 19px !important;
+ }
+ .webnav{
+     z-index: -100;
+ }
+ .web-content{
+   z-index: -100;
+ }
+ .web-resource{
+   z-index: -100;
+ }
+ .ads{
+     padding: 20px;
+     margin-left: 10px;
+   }
+   .card-content{
+     z-index: -100;
+   }
+ .ads-btn{
+   margin-left: 65px;
+   margin-bottom: 5px;
+   
+ }
+ .carousel-control-next-icon{
+   background-color: rgb(39, 35, 35);
+   border-radius: 10px;
+   margin-left: 40px;
+ }
+ .carousel-control-prev-icon{
+   background-color: rgb(39, 35, 35);
+   border-radius: 10px;
+   margin-right: 40px;
+ 
+ }
+ .last-content-title{
+     z-index: -100;
+ }
+ 
+ 
+ @media only screen and (min-width: 1400px ) and (max-width: 1505px){
+     .ads{ 
+         
+         width: 25rem;
+         margin-left: 34px;
+       }
+ }
+ 
+ @media only screen and (max-width: 1200px){
+     .ads{ 
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         padding-left: 0;
+       }
+       .card-content{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+       }
+       .card1{
+         margin-top: 50px;
+       }
+       .card3{
+         margin-top: 20px;
+       }
+ }
+ @media only screen and (max-width: 992px){
+     .card-content{
+        width: 22rem;
+       }
+       .card1{
+         margin-top: 28px;
+       }
+       .card3{
+     
+             margin-left: 195px;
+           }
+       
+ }
+ @media only screen and (max-width: 768px){
+   
+     .carousel{
+         width: 30rem;
+      }
+      
+ }
+ @media only screen and (max-width: 562px){
+   
+     .carousel{
+         width: 25rem;
+      }
+      .par{
+         font-size: 13px;
+      }
+      .last-content-title{
+         text-align: center;
+        }
+        .card1{
+         
+         margin-left: 80px;
+         margin-bottom: 30px;
+        }
+        .card2{
+         
+         margin-left: 80px;
+         margin-bottom: 15px;
+        }
+        .card3{
+        margin-left: 90px;
+        }
+        .ads{
+         margin-left: 160px;
+        }
+ }
+ @media only screen and (max-width: 426px){
+     .carousel{
+    
+         width: 20rem;
+      }
+      .par{
+         font-size: 10px;
+      }
+      .carousel-control-next-icon{
+       background-color: rgb(39, 35, 35);
+       border-radius: 10px;
+       margin-left: 25px;
+      
+   }
+   .carousel-control-prev-icon{
+       background-color: rgb(39, 35, 35);
+       border-radius: 10px;
+       margin-right: 25px;
+   
+   }
+      .card1{
+         
+         margin-left: 15px;
+         margin-bottom: 30px;
+        }
+        .card2{
+         
+         margin-left: 16px;
+         margin-bottom: 15px;
+        }
+        .card3{
+        margin-left: 28px;
+        }
+        .ads{
+         margin-left: 88px;
+        }
+        .last-content-title{
+         text-align: center;
+        }
+        
+     }
+     .nav-item{
+       font-size: 16px;
+     }
+  
+     @media only screen and (max-width: 376px){
+   
+       .par{
+         font-size: 10px;
+      }
+      .card1{
+         
+         margin-right: 80px;
+         margin-bottom: 30px;
+        }
+        .card2{
+         
+         margin-left: 16px;
+         margin-bottom: 15px;
+        }
+        .card3{
+        margin-left: 28px;
+        }
+        .ads{
+         margin-left: 102px;
+        }
+        .last-content-title{
+         text-align: center;
+        }
+        
+     }
